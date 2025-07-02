@@ -1,0 +1,21 @@
+.breadcrum {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap; /* This allows it to wrap on smaller screens if needed */
+  color: #5e5e5e;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 30px 50px;
+  text-transform: capitalize;
+}
+
+.breadcrum img {
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+}
+
+.breadcrum span {
+  white-space: nowrap; /* Prevent breaking inside words */
+}

@@ -1,0 +1,139 @@
+.productdisplay {
+  display: flex;
+  margin: 0px 170px;
+  gap: 40px;
+}
+
+.productdisplay-left {
+  display: flex;
+  gap: 17px;
+  width: 60%;
+}
+
+.productdisplay-img-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 20%;
+}
+.productdisplay-img-list img {
+  height: 163px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+.productdisplay-img-list img:hover {
+  transform: scale(1.05);
+}
+
+.productdisplay-img {
+  width: 80%;
+}
+.productdisplay-main-img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+.productdisplay-main-img:hover {
+  transform: scale(1.03);
+}
+
+.productdisplay-right {
+  width: 40%;
+  padding: 0 20px;
+}
+
+.productdisplay-right h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.productdisplay-right-star {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.productdisplay-right-star img {
+    display:flex;
+  width: 24px;
+  margin-right: 4px;
+  transition: transform 0.2s ease;
+}
+.productdisplay-right-star img:hover {
+  transform: scale(1.2);
+}
+
+.productdisplay-right-star p {
+  display: inline;
+  margin-left: 10px;
+}
+
+.productdisplay-right-prices {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 15px 0;
+}
+.productdisplay-right-price-old {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 20px;
+}
+.productdisplay-right-price-new {
+  color: #e91e63;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.productdisplay-right-description {
+  color: #444;
+  line-height: 1.6;
+  margin: 15px 0;
+}
+
+.productdisplay-right-size h2 {
+  margin: 20px 0 10px;
+}
+.productdisplay-right-size-options {
+  display: flex;
+  gap: 12px;
+}
+.size-option {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: white;
+  transition: all 0.2s ease-in-out;
+}
+.size-option:hover,
+.size-option.selected {
+  background-color: #e91e63;
+  color: white;
+  border-color: #e91e63;
+}
+
+.add-to-cart-button {
+  padding: 12px 30px;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.add-to-cart-button:hover {
+  background-color: #c2185b;
+}
+
+.productdisplay-right-category {
+  margin-top: 12px;
+  color: #555;
+  font-style: italic;
+}
