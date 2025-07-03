@@ -32,8 +32,11 @@ function App() {
          <Route path = '/cart' element ={<Cart/>}/>
          <Route path = '/signup' element ={<LoginSignup/>}/>
          <Route path = '/login' element ={<Login/>}/>
-
+ 
       </Routes>
+
+     
+
       {/* <Practice/> */}
       <Footer/>
       </BrowserRouter>
